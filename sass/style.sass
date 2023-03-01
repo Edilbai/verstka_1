@@ -1,0 +1,209 @@
+
+%header
+    display: flex
+    justify-content: space-around
+    align-items: center
+    margin: auto
+.header
+  max-width: 447px
+  @extend %header
+.header_wrapper
+  width: 100%
+  height: 50px
+  background-color: #E5E5E5
+h2
+  font-weight: 700
+  font-size: 36px
+  line-height: 42px
+  color: #66C05D
+  margin-left: 20px
+// //////////////////////////
+%btn
+  margin: 20px
+  border: 2px solid
+  border-radius: 40px
+.btn_beauty
+  @extend %btn
+  border-color: #66C05D
+  width: 170px
+  height: 40px
+%flex-element-center
+  display: flex
+  justify-content: center
+  align-items: center
+
+.beauty
+  @extend %flex-element-center
+
+.beauty_wrapper
+  display: flex
+  justify-content: space-around
+  height: 120px
+.line
+  height: 1px
+  width: 100%
+  background-color:  #E5E5E5
+  /////////////////////////
+.header2
+  @extend %header
+  max-width: 675px
+  padding-top: 25px
+.header2_wrapper
+  height: 70px
+  width: 100%
+  margin: auto
+// //////////////////////////
+.super_wrapper img
+  position: relative
+  width: 100%
+.super
+  display: flex
+  flex-direction: column
+  color: #ffffff
+  max-width: 318px
+  // height: 219px
+  position: absolute
+  top: 90%
+  left: 10%
+
+h1
+  font-weight: 700
+  font-size: 48px
+  line-height: 56px
+.btn_super
+  @extend %btn
+  background-color: #66C05D
+  color: #ffffff
+  border-color: #ffffff
+  width: 170px
+  height: 40px
+// ////////////////////////////
+.special_wrapper
+  background-color: #EFEFEF
+.special
+  margin: auto
+  display: flex
+  max-width: 1150px
+  justify-content: space-around
+h5
+  font-size: 24px
+.special_card
+
+  background-color: white
+  max-width: 255px
+  height: 420px
+  display: flex
+  flex-direction: column
+  align-items: center
+.special_card span
+  text-align: center
+  font-size: 17px
+.special_card img
+  margin-top: 30px
+.btn_special
+  @extend %btn
+  background-color: #66C05D
+  color: #ffffff
+  border-color: #ffffff
+  width: 130px
+  height: 35px
+.bonus_wrapper
+  max-width: 540px
+  width: 100%
+  display: flex
+  justify-content: space-around
+  background-color:  #66C05D
+.bonus_main
+  padding-top: 100px
+  display: flex
+  justify-content: space-around
+  max-width: 1140px
+  margin: auto
+  padding-bottom: 132px
+.bonus
+
+  display: flex
+  flex-direction: column
+.bonus h5
+  font-size: 18px
+  color: #ffffff
+.bonus span
+
+  width: 200px
+  height: 40px
+  color: #ffffff
+
+.bonus input
+  margin-top: 25px
+  width: 235px
+  height: 35px
+  border: 1px solid #ffffff
+  border-radius: 40px
+.right
+  margin-right: 250px
+//////////////////////////////////////
+.footer
+  display: flex
+  justify-content: space-around
+.icons
+  display: flex
+  justify-content: space-around
+  align-items: center
+  max-width: 272px
+  width: 100%
+.icon
+  width: 45px
+  height: 45px
+  border: 1px solid green
+  border-radius: 50px
+.icon img
+
+  margin-left: 11px
+  margin-top: 14px
+.third img
+  margin-left: 15px
+.footer_wrapper
+  display: flex
+  justify-content: space-around
+  align-items: center
+  height: 120px
+  max-width: 710px
+  width: 100%
+.footer_wrapper button
+  margin: 0
+.end
+  height: 64px
+  width: 100%
+  background-color:  #EFEFEF
+  color: #828282
+  display: flex
+  justify-content: space-around
+  align-items: center
+  ////////////////////////////////
+// mixins популярных брекпоинтов
+// @mixin desktop
+//     @media screen and (max-width: 1024px)
+//       .super_wrapper img
+//         width: 70%
+//       .special
+//         display: grid
+//       grid-row: auto
+
+
+
+
+// @mixin laptop {
+//     @media screen and (max-width: 992px) {
+//         // @content;
+//     }
+// }
+// @mixin tablets {
+//     @media screen and (max-width: 768px) {
+//         // @content;
+//     }
+// }
+// @mixin phones {
+//    @media screen and (max-width: 480px) {
+//         // @content;
+//    }
+// }
